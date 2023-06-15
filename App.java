@@ -8,7 +8,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 public class App {
-    private static final String algorithm = "HmacSHA512";
+    private static final String algorithm = "HmacSHA3-512";
     
 
     public static byte[] hmacSha512Code(byte[] key, byte[] message) throws NoSuchAlgorithmException, InvalidKeyException {
